@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .box {
+        width: 500px;
+        height: 80px;
+        border-radius: 10px;
+        background: #e0e0e0;
+        box-shadow: 5px 5px 6px #c1c1c1, -5px -5px 6px #ffffff;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .box-item {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        background: #e0e0e0;
+        box-shadow: 5px 5px 6px #c1c1c1, -5px -5px 6px #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        transition: all 0.3s;
+      }
+      .box-item:hover {
+        border-radius: 10px;
+        background: #e0e0e0;
+        box-shadow: inset 10px 10px 10px #acacac, inset -10px -10px 10px #ffffff;
+      }
+      .box-item:nth-child(1):hover {
+        color: #4267B2;
+      }
+      .box-item:nth-child(2):hover {
+        color: #1DA1F2;
+      }
+      .box-item:nth-child(3):hover {
+        color: #ea4c89;
+      }
+      .box-item:nth-child(4):hover {
+        color:#0072b1;
+      }
+      .box-item:nth-child(5):hover {
+        color: rgb(15 157 88);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="box-item">
+        <i class="fa-brands fa-facebook-f"></i>
+      </div>
+      <div class="box-item">
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+      <div class="box-item">
+        <i class="fa-solid fa-basketball"></i>
+      </div>
+      <div class="box-item">
+        <i class="fa-brands fa-linkedin-in"></i>
+      </div>
+      <div class="box-item">
+        <i class="fa-brands fa-google"></i>
+      </div>
+    </div>
+  </body>
+</html>
